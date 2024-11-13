@@ -1,11 +1,11 @@
 /* tabellina */
 
 
-for (let i = 0; i < 22; i++) {
+/* for (let i = 0; i < 22; i++) {
     if (i % 2 == 0) {
        console.log(i);
     }
- }
+ } */
  
  
  
@@ -14,18 +14,37 @@ for (let i = 0; i < 22; i++) {
  
  
  /* numeri pari e stampata media dei dispari */
- 
- for (let i = 0; i < 21; i++) {
-    if (i % 2 == 0) {
-       console.log( i);
-    } 
+
+ for (let dispari = 0; dispari < 23; dispari++) 
+    {
+        
+
+
+        if (dispari % 2 === 1) {
+           
+    console.log(dispari)
     
- }
- let sum = 0 
- const dispari = [1,3,5,7,9,11,13,15,17,19]
- for (let i = 0; i < dispari.length; i++) {
+  } 
+  /* else{
+    i+=23
+    i++
+  } */
+   
+
+
+   }
+  
+
+
+
+
+
+ 
+ /* 
+ for (let i = 0; i < 21; i++) {
     const sum = dispari[i];
     }
  const media = sum= dispari.length
  console.log( `La media dei numeri dispari è ${media}`);
- 
+ */
+ /* individua e somma al numero precedente contare le volte che è stato calcolato il numero dispari  */
