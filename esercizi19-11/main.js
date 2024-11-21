@@ -78,8 +78,3 @@ bottoneNo.addEventListener('click', () => {
 )
 
 
-
-
-// secondo esercizio 
-
-
